@@ -733,15 +733,6 @@ const drinks = [
             'Medium',
             'drink.html?drink=tequilasunrise'
         ),
-    new Drink('Almond Old Fashioned',
-            './drinks/almondoldfashioned.jpg',
-            'A rich and nutty bourbon cocktail.',
-            ['Whisky', 'Bourbon'],
-            ['Amaretto', 'Sugar', 'Angostura Bitters'],
-            ['Sweet', 'Bitter'],
-            'Strong',
-            'drink.html?drink=almondoldfashioned'
-        ),
     new Drink('Boulevardier',
             './drinks/boulevardier.jpg',
             'A bold and bitter bourbon cocktail.',
