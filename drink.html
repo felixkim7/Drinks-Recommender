@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drink Details</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            background-color: #212121;
+        }
+
+        .header{
+            font-size: 120%;
+            background-color: rgb(0, 0, 0);
+            color: rgb(233, 233, 233);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: stretch;
+            align-items: center;
+            min-height: 55px;
+        }
+
+        .Title{
+            flex: 50%;
+            border: 2px solid blue;
+            padding: 10px 10px;
+            text-align: left;
+            vertical-align: middle;
+            font-size: 2.5vw;
+            text-decoration: none;
+            color: rgb(233, 233, 233);
+            /* display: flex; */
+            align-items: center;
+        }
+
+        .links1{
+            flex: 25%;
+            border: 2px solid blue;
+            padding: 10px 10px;
+            text-align: center;
+            /* vertical-align: bottom; */
+            font-size: 1.8vw;
+            text-decoration: none;
+            color: rgb(233, 233, 233);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* height: 100%; */
+        }
+
+        .drink-details {
+            text-align: center;
+            padding: 20px;
+            background-color: #212121;
+        }
+
+        .drink-details img {
+            max-width: 300px;
+            border-radius: 10px;
+        }
+
+        .drink-details h1 {
+            font-size: 2rem;
+            margin: 10px 0;
+            color: rgb(233, 233, 233);
+        }
+
+        .drink-details h3 {
+            color: rgb(233, 233, 233);
+        }
+
+        .drink-details p {
+            font-size: 1.2rem;
+            color: rgb(207, 207, 207);
+        }
+
+        @media screen and (max-width: 1000px) {
+            .header .Title {
+                font-size: 16pt;
+            }
+
+            .links1 {
+                display: none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a class="Title" href="index.html">Drinks Recommender</a>
+        <a class="links1" href="index.html">Cocktails</a>
+        <a class="links1" href="index.html">Whisky</a>
+        
+    </div>
+
+    <div id="drink-details" class="drink-details">
+        <!-- drink -->
+    </div>
+
+    <script src="drink.js"></script>
+</body>
+</html>

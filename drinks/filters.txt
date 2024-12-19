@@ -1,0 +1,15 @@
+base: Gin, Vodka, Rum, White Rum, Gold Rum, Dark Rum, Overproof Rum, Tequila, Whisky, Bourbon, Scotch, Rye, Cognac, Liqueur
+
+strength: Strong, Medium, Light
+flavor: Bitter, Sweet, Sour, Savory, Fruity
+
+ingredients(not base): 
+St. Germain, Malibu, Campari, Sweet Vermouth, Dry Vermouth, Amaretto, Crème de Cassis, Grand Marnier, Cointreau, Blue Curaçao, Peachtree, Kahlúa, Angostura Bitters, Orange Bitters, White Wine, Red Wine, Champagne, 
+
+Lemon, Lime, Orange, Grapefruit, Cranberry, Apple, Pineapple, Coconut, Olive
+
+Club Soda, Tonic Water, Ginger Ale, Ginger Beer, Coke, Sprite, 
+
+Tabasco, Salt, Pepper, Milk, Cream, Mint, Egg White, Black Tea, 
+
+Grenadine, Sweet and Sour Mix, Honey, Simple Syrup, Sugar, Brown Sugar
