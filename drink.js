@@ -1012,13 +1012,13 @@ function loadDrinkDetails() {
         document.getElementById('drink-details').innerHTML = `
             <img src="${drink.image}" alt="${drink.name}">
             <h1>${drink.name}</h1>
-            <p>${drink.description}</p>
+            <p>${drink.description}</p><br><br>
             <h3>Base:</h3>
-            <p>${drink.base.join(', ')}</p>
+            <p>${drink.base.join(', ')}</p><br><br>
             <h3>Ingredients:</h3>
-            <p>${drink.ingredients.join(', ')}</p>
+            <p>${drink.ingredients.join(', ')}</p><br><br>
             <h3>Flavour:</h3>
-            <p>${drink.flavour.join(', ')}</p>
+            <p>${drink.flavour.join(', ')}</p><br><br>
             <h3>Strength:</h3>
             <p>${drink.strength}</p>
         `;
